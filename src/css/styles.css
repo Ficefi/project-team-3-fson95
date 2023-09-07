@@ -7,15 +7,21 @@
 @import url('./sign_up.css');
 @import url('./reviews.css');
 @import url('./footer.css');
+@import url('./reset.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  --black: #121212;
+  --black-gradient: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  --dark_gray: #1d1d1d;
+  --light_brown: #bea69e;
+  --white: #ffffff;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  font-weight: 400;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
