@@ -1,0 +1,71 @@
+.our-mentors-section {
+  background: var(--black, #121212);
+  margin-bottom: 80px;
+}
+
+.our-mentors-container {
+}
+
+.our-mentors-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14; /* 114.286% */
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+
+.our-mentors-title-two {
+  color: #bea69e;
+}
+
+.our-mentors-list {
+}
+
+.our-mentors-list-item {
+  display: flex;
+  max-width: 185px;
+  height: 240px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.our-mentors-images {
+  border-radius: 200px;
+  background: var(
+    --avatar-user-square-brianna-ware-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );
+}
+
+.our-mentors-container-text {
+}
+
+.our-mentors-text-title {
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  margin-bottom: 4px;
+}
+
+.our-mentors-text-paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33; /* 133.333% */
+  letter-spacing: -0.02em;
+}
