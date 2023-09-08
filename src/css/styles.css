@@ -16,16 +16,29 @@
   --light_brown: #bea69e;
   --white: #ffffff;
 
-  color: #ffffff;
   font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  font-weight: 400;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
 }
