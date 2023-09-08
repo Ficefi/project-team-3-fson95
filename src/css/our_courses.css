@@ -1,0 +1,109 @@
+
+/* Потом удалить */
+ol {
+    margin: 0;
+    padding: 0;
+}
+/* Потом удалить */
+
+.our-courses-section {
+    padding-top: 80px !important; 
+    padding-bottom: 80px !important;
+    background-color: var(--black);
+}
+.our-courses-header {
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+}
+.our-courses-header-accent {
+    
+    color: var(--light_brown);
+}
+.our-courses-paragraph {
+    color: var(--white);
+    min-width: calc(100% - 20px);
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+.our-courses-photo-list {
+    display: flex;
+
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.our-courses-photo-container {
+    position: relative;
+   padding: 28px;
+    max-width: 335px;
+    min-height: 398px;
+    border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+}
+.our-courses-header-container-item {
+    margin-top: 42px;
+    max-width: 279px;
+    color: var(--white);    
+    font-size: 28px;   
+    font-weight: 500;
+    line-height: 1.14;
+}
+.our-courses-paragraph-container-item {
+    color: rgba(255, 255, 255, 0.50);
+    margin-top: 164px;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+}
+.our-courses-number {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.40);
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
+.svg-button-round {
+    position: absolute;
+    right: 28px;
+    top: 28px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #1D1D1D;  
+    border: none;  
+}
+
+.our-courses-photo-list-svg {
+    fill: var(--white);
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .our-courses-header {
+        font-size: 48px;
+        line-height: 1.12;
+    }
+    .our-courses-paragraph {
+        min-width: 381px;
+    }
+
+    .our-courses-photo-container {
+        min-width: 342px;
+        min-height: 452px;
+    }
+    .our-courses-header-container-item {
+        font-size: 32px;
+    }
+    .our-courses-paragraph-container-item {
+        font-size: 16px;
+    }
+    .our-courses-number {
+        font-size: 16px;
+    }
+}
