@@ -1,0 +1,42 @@
+.hero {
+  max-width: 335px;
+  padding: 40px 0;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: var(--dark_gray);
+  /* background-image: url(../img/1x/person_with_camera@1x.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+.hero-title {
+  max-width: 295px;
+  margin-bottom: 20px;
+  color: var(--white);
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+}
+
+.hero-title-second-style {
+  color: var(--light_brown);
+  font-style: italic;
+}
+
+.hero-text {
+  max-width: 295px;
+  margin-bottom: 40px;
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.block {
+  display: flex;
+}
+
+.reviews {
+  display: flex;
+}
