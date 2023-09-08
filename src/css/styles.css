@@ -42,3 +42,11 @@
     padding: 0 100px;
   }
 }
+
+.button {
+  padding: 16px;
+  border-radius: 12px;
+  margin: auto;
+  color: var(--white);
+  background-color: var(--dark_gray);
+}
