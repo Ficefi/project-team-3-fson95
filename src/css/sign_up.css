@@ -117,7 +117,6 @@
     background: var(--white, #FFF);
     border: none;
     outline: transparent;
-    font-family: DM Sans;
     text-transform: uppercase;
 }
 
