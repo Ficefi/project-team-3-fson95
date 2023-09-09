@@ -1,22 +1,13 @@
 /*========================================
           footer section
 ==========================================*/
-p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
 
 .footer {
         padding-top: 40px;
         padding-bottom: 20px;
         color: var(--white);
         font-size: 14px;
+        background-image: url(../img/);
 }
 
 .footer-container {
@@ -39,9 +30,11 @@ ul {
         flex-direction: column;
         padding-bottom: 40px;
 }
+.footer-block-logo {
+    padding-bottom: 20px;
+}
 .footer-logo {
     fill: var(--white);
-    padding-bottom: 20px;
 }
 
 .footer-tel {
@@ -159,8 +152,9 @@ ul {
 
 @media only screen and (min-width: 1280px) {
         .footer-nav {
-                padding-bottom: 74px;
+                padding-bottom: 74px;                
             }
+            
     .form-input {
             width: 216px;
         }
