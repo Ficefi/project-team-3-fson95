@@ -78,10 +78,22 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767.98px) {
   .our-mentors-mia {
-    max-width: 194px;
+    width: 185px;
+    height: 240px;
+    margin: 0 auto;
+    margin-bottom: 40px;
   }
+}
+
+.our-mentors-mia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  height: auto;
+  max-width: 194px;
 }
 
 .our-mentors-images {
