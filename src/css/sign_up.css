@@ -2,9 +2,41 @@
     margin-bottom: 80px;
 }
 .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+.form-sing-up {
     max-width: 335px;
     min-height: 523px;
+}
+.sing-up-box-img {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    margin-left: 60px;
+}
 
+.photo1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 288px;
+    background-color: var(--light_brown);
+    border-radius: 1000px;
+    border-radius: 1000px;
+
+}
+
+.photo2 {
+    padding: 156px 50px 88px 50px;
+    width: 340px;
+    height: 540px;
+    flex-shrink: 0;
+    border-radius: 1000px;
+    background-color: #1D1D1D;
 }
 
 
@@ -23,14 +55,15 @@
 }
 
 .sing-up-subtitle {
-    width: 295px;
+    max-width: 295px;
     color: var(--white);
     font-family: DM Sans;
-    font-size: 14px;
     font-weight: 400;
-    line-height: 1.29;
+    line-height: 1.25;
     letter-spacing: -0.02em;
     margin-bottom: 41px;
+    color: #FFF;
+
 }
 
 .form-input-box {
@@ -87,15 +120,39 @@
 
 .form-privacy {
     color: rgba(255, 255, 255, 0.50);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.33;
+    line-height: 1.29;
+    font-size: 14px;
+    width: 100%;
+
 }
 
 .form-privacy-policy {
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1.33;
     text-decoration-line: underline;
+}
+@media only screen and (max-width: 1279.8px) {
+    .sing-up-box-img {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px)
+{
+    .sing-up-subtitle {
+        max-width: 480px;
+    }
+    .form-input-box {
+        margin-bottom: 14px;
+    }
+    .form-sing-up {
+        max-width: 480px;
+        min-height: 423px;
+        }
+        .form-input {
+            height: 60px;
+        }
+    .form-textarea {
+        height: 120px;
+    }
+    .form-privacy {
+        max-width: 480px;
+    }
 }
