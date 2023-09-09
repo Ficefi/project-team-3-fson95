@@ -1,38 +1,88 @@
 .our-mentors-section {
+  width: 100%;
   background: var(--black, #121212);
   margin-bottom: 80px;
 }
 
+@media only screen and (min-width: 768px) {
+  .our-mentors-section {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .our-mentors-section {
+    margin-bottom: 150px;
+  }
+}
+
 .our-mentors-container {
+  width: 100%;
 }
 
 .our-mentors-title {
   color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.14; /* 114.286% */
   letter-spacing: -0.04em;
   margin-bottom: 40px;
+  text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+  .our-mentors-title {
+    font-size: 48px;
+    line-height: 1.125;
+    margin-bottom: 50px;
+  }
 }
 
 .our-mentors-title-two {
   color: #bea69e;
 }
 
-.our-mentors-list {
+@media only screen and (min-width: 768px) {
+  .our-mentors-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 93px 100px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .our-mentors-list {
+    align-items: flex-start;
+    gap: 93px;
+    margin-left: 33px;
+  }
 }
 
 .our-mentors-list-item {
   display: flex;
-  max-width: 185px;
+  width: 185px;
   height: 240px;
   flex-direction: column;
   align-items: center;
   gap: 16px;
   margin: 0 auto;
   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .our-mentors-list-item {
+    margin: 0;
+    max-width: 180px;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .our-mentors-mia {
+    max-width: 194px;
+  }
 }
 
 .our-mentors-images {
@@ -45,13 +95,9 @@
   );
 }
 
-.our-mentors-container-text {
-}
-
 .our-mentors-text-title {
   color: #fff;
   text-align: center;
-  font-family: DM Sans;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -59,13 +105,26 @@
   margin-bottom: 4px;
 }
 
+@media only screen and (min-width: 768px) {
+  .our-mentors-text-title {
+    font-size: 28px;
+    line-height: 1.14;
+  }
+}
+
 .our-mentors-text-paragraph {
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  font-family: DM Sans;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.33; /* 133.333% */
   letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .our-mentors-text-paragraph {
+    font-size: 14px;
+    line-height: 1.28;
+  }
 }
