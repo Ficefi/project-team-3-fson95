@@ -7,7 +7,17 @@
         padding-bottom: 20px;
         color: var(--white);
         font-size: 14px;
-        background-image: url(../img/);
+        background-image: url(../img/graphic/graphic_mobile@1x.png);
+        background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer {
+        background-image: url(../img/graphic/graphic_mobile@2x.png);
+    }
 }
 
 .footer-container {
@@ -101,7 +111,7 @@
             font-size: 20px;
             line-height: 1.2;
             border: none;
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-button:hover,
 .footer-button:focus,
@@ -126,12 +136,11 @@
 }
 
 
-
-
 @media only screen and (min-width: 768px) {
     .footer {
             padding-top: 50px;
             padding-bottom: 25px;
+            background-image: url(../img/graphic/graphic_tablet@1x.png);
         }
     .footer-container {
             max-height: 331px;
@@ -148,14 +157,36 @@
         .form-input {
              width: 178px;
         }
+                .footer-privaci-text {
+                    font-size: 14px;
+                    line-height: 1.29;
+                }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer {
+        background-image: url(../img/graphic/graphic_tablet@2x.png);
+    }
 }
 
 @media only screen and (min-width: 1280px) {
-        .footer-nav {
-                padding-bottom: 74px;                
-            }
-            
+    .footer-nav {
+            padding-bottom: 74px;                
+        }
     .form-input {
             width: 216px;
         }
+    .footer {
+        background-image: url(../img/graphic/Graphic@1x.png);
+    }
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer {
+        background-image: url(../img/graphic/Graphic@2x.png);
+    }
 }
