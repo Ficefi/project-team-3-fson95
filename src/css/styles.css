@@ -61,11 +61,17 @@ img {
 
 h2 {
   color: #fff;
-  font-size: 48px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.12;
   letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 48px;
+  }
 }
 
 .button {
