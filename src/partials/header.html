@@ -1,0 +1,101 @@
+<header class="header-container headroom">
+  <div class="container header-cont">
+    <nav class="nav">
+      <a class="link link-logo-header" href="">
+        <svg class="icon-header" width="123" height="16">
+          <use href="./img/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="list list-nav-header">
+        <li><a class="link-nav-header" href="#about-us"> About us </a></li>
+        <li>
+          <a class="link-nav-header" href="#our-courses"> Our courses </a>
+        </li>
+        <li>
+          <a class="link-nav-header" href="#our-mentors"> Our mentors </a>
+        </li>
+        <li><a class="link-nav-header" href=""> Reviews </a></li>
+        <li><a class="link-nav-header" href=""> contacts </a></li>
+      </ul>
+      <a class="link link-sign-up-header" href="#sing-up">
+        <svg class="icon-signup-header" width="16" height="16">
+          <use href="./img/icons.svg#icon-camera"></use>
+        </svg>
+      </a>
+      <button
+        class="menu-toggle js-open-menu tablet-header"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="icon-mob-menu" width="32" height="22">
+          <use href="./img/icons.svg#icon-menu-btn"></use>
+        </svg>
+      </button>
+    </nav>
+    <div class="cont-sign-up-header">
+      <a class="link link-btn-sign-up" href="#sing-up">Sign up</a>
+    </div>
+  </div>
+</header>
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <div class="background">
+    <button class="menu-toggle js-close-menu">
+      <svg class="icon-close-menu" width="32" height="32">
+        <use href="./img/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <div class="backgrond-mob-menu cont-mob-menu">
+      <ul class="list list-mob-menu-nav">
+        <li class="item-mob-menu">
+          <a class="link link-maob-menu-nav" href="#about-us">
+            <span class="curr-header">About us</span>
+          </a>
+        </li>
+        <li class="item-mob-menu">
+          <a class="link link-maob-menu-nav" href="#our-courses">
+            Our courses
+          </a>
+        </li>
+        <li class="item-mob-menu">
+          <a class="link link-maob-menu-nav" href="#our-mentors">
+            Our mentors
+          </a>
+        </li>
+        <li class="item-mob-menu">
+          <a class="link link-maob-menu-nav" href=""> Reviews </a>
+        </li>
+        <li class="item-mob-menu">
+          <a class="link link-maob-menu-nav" href=""> contacts </a>
+        </li>
+      </ul>
+      <picture class="icon-header-png">
+        <source
+          srcset="
+            ./img/1x/camera_on_cylinder@1x.png 1x,
+            ./img/2x/camera_on_cylinder@2x.png 2x
+          "
+          width="329px"
+          height="218px"
+          media="(min-width: 320px)"
+        />
+        <source
+          srcset="
+            ./img/1x/camera_on_cylinder@1x.png 1x,
+            ./img/2x/camera_on_cylinder@2x.png 2x
+          "
+          width="476px"
+          height="480px"
+          media="(min-width: 768px)"
+        />
+        <img src="./img/1x/camera_on_cylinder@1x.png" alt="" />
+      </picture>
+    </div>
+  </div>
+</div>
+<script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+<script src="https://unpkg.com/headroom.js"></script>
