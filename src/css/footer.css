@@ -3,6 +3,7 @@
 ==========================================*/
 
 .footer {
+    min-height: 535px;
         padding-top: 40px;
         padding-bottom: 20px;
         color: var(--white);
@@ -10,8 +11,10 @@
         background-image: url(../img/graphic/graphic_mobile@1x.png);
         background-repeat: no-repeat;
             background-size: cover;
-            background-position: center
+            background-position: center;
+           border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
@@ -21,7 +24,6 @@
 }
 
 .footer-container {
-    max-height: 535px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -138,12 +140,12 @@
 
 @media only screen and (min-width: 768px) {
     .footer {
+        min-height: 331px;
             padding-top: 50px;
             padding-bottom: 25px;
-            background-image: url(../img/graphic/graphic_tablet@1x.png);
+            background-image: url(../img/graphic/graphic_tablet@2x.png);
         }
     .footer-container {
-            max-height: 331px;
             align-content: space-between;
         }
         .footer-nav {
@@ -162,7 +164,7 @@
                     line-height: 1.29;
                 }
 }
-
+/*
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
@@ -170,7 +172,7 @@
         background-image: url(../img/graphic/graphic_tablet@2x.png);
     }
 }
-
+*/
 @media only screen and (min-width: 1280px) {
     .footer-nav {
             padding-bottom: 74px;                
@@ -179,14 +181,14 @@
             width: 216px;
         }
     .footer {
-        background-image: url(../img/graphic/Graphic@1x.png);
+        background-image: url(../img/graphic/Graphic@2x.png);
     }
 }
-
+/*
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
     .footer {
         background-image: url(../img/graphic/Graphic@2x.png);
     }
-}
+}*/
