@@ -19,16 +19,20 @@
 }
 
 .photo1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 180px;
     height: 288px;
     background-color: var(--light_brown);
     border-radius: 1000px;
     border-radius: 1000px;
-
+    /* background-image: url(../img/1x/isabella-mendes-camera@1x.png);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    padding: 87px 17px 74px 43px;
 }
+.focus {
+    background-size: cover;
+}
+
 
 .photo2 {
     padding: 156px 50px 88px 50px;
@@ -37,6 +41,7 @@
     flex-shrink: 0;
     border-radius: 1000px;
     background-color: #1D1D1D;
+    padding: 156px 50px 88px 50px;
 }
 
 
@@ -130,7 +135,7 @@
     box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     transition: box-shadow 30ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-btn:hover{
+.form-btn:active{
     transform: translateY(2px);
     box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
 }
