@@ -1,6 +1,6 @@
 .hero {
-  padding-top: 90px !important;
-  padding-bottom: 80px !important;
+  padding-top: 90px;
+  padding-bottom: 80px;
   background-image: url(../img/graphic/graphic_mobile@1x.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -17,8 +17,8 @@
 
 @media only screen and (min-width: 768px) {
   .hero {
-    padding-top: 120px !important;
-    padding-bottom: 100px !important;
+    padding-top: 120px;
+    padding-bottom: 100px;
     background-image: url(../img/graphic/graphic_tablet@1x.png);
   }
 
@@ -33,8 +33,8 @@
 
 @media only screen and (min-width: 1280px) {
   .hero {
-    padding-top: 160px !important;
-    padding-bottom: 150px !important;
+    padding-top: 160px;
+    padding-bottom: 150px;
     background-image: url(../img/graphic/Graphic@1x.png);
   }
 
@@ -91,7 +91,7 @@
 @media only screen and (min-width: 768px) {
   .hero-title {
     padding-top: 64px;
-    max-width: 517px;
+    max-width: 507px;
     font-size: 60px;
     line-height: 1.07;
   }
@@ -100,7 +100,6 @@
 @media only screen and (min-width: 1280px) {
   .hero-title {
     padding-top: 80px;
-    max-width: 563px;
     font-size: 64px;
     line-height: 1.06;
   }
@@ -129,7 +128,7 @@
 
 @media only screen and (min-width: 1280px) {
   .hero-text {
-    margin-bottom: auto;
+    margin-bottom: 136px;
   }
 }
 
