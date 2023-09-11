@@ -23,6 +23,7 @@
     padding-top: 120px;
     padding-bottom: 100px;
     background-image: url(./img/graphic/graphic_tablet@1x.png);
+
   }
 
   @media (min-device-pixel-ratio: 2),
