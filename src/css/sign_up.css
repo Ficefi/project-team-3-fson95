@@ -151,12 +151,21 @@
 }
 
 @media only screen and (max-width: 1279.8px) {
+    
     .sign-up-box-img {
         display: none;
     }
 }
+@media only screen and (min-width: 1280px) {
+    .sign-up {
+        padding-bottom: 150px;
+        }
+}
 
 @media only screen and (min-width: 768px) {
+    .sign-up {
+        padding-bottom: 100px;
+        }
     .sign-up-title {
         font-size: 48px;
         line-height: 1.12;
