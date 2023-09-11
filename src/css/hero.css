@@ -1,7 +1,7 @@
 .hero {
   padding-top: 90px;
   padding-bottom: 80px;
-  background-image: url(../img/graphic/graphic_mobile@1x.png);
+  background-image: url(./img/graphic/graphic_mobile@1x.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,7 +14,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../img/graphic/graphic_mobile@2x.png);
+    background-image: url(./img/graphic/graphic_mobile@2x.png);
   }
 }
 
@@ -22,14 +22,14 @@
   .hero {
     padding-top: 120px;
     padding-bottom: 100px;
-    background-image: url(../img/graphic/graphic_tablet@1x.png);
+    background-image: url(./img/graphic/graphic_tablet@1x.png);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(../img/graphic/graphic_tablet@2x.png);
+      background-image: url(./img/graphic/graphic_tablet@2x.png);
     }
   }
 }
@@ -38,14 +38,14 @@
   .hero {
     padding-top: 160px;
     padding-bottom: 150px;
-    background-image: url(../img/graphic/Graphic@1x.png);
+    background-image: url(./img/graphic/Graphic@1x.png);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: url(../img/graphic/Graphic@2x.png);
+      background-image: url(./img/graphic/Graphic@2x.png);
     }
   }
 }
