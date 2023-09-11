@@ -5,6 +5,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: none;
+  border-bottom: none;
 }
 
 @media (min-device-pixel-ratio: 2),
