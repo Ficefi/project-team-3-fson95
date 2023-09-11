@@ -74,14 +74,6 @@
     text-transform: uppercase;
 }
 
-.footer-menu-list-item {}
-
-.footer-menu-list-link {
-}
-
-.footer-send {
-}
-
 .footer-form {
     display: flex;
         align-items: center;
@@ -164,15 +156,7 @@
                     line-height: 1.29;
                 }
 }
-/*
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .footer {
-        background-image: url(../img/graphic/graphic_tablet@2x.png);
-    }
-}
-*/
+
 @media only screen and (min-width: 1280px) {
     .footer-nav {
             padding-bottom: 74px;                
@@ -184,11 +168,3 @@
         background-image: url(../img/graphic/Graphic@2x.png);
     }
 }
-/*
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .footer {
-        background-image: url(../img/graphic/Graphic@2x.png);
-    }
-}*/
