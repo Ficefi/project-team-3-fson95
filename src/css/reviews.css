@@ -1,6 +1,7 @@
 /*========================================
             reviews section
 ==========================================*/
+
 .reviews-section {
   padding-bottom: 80px;
 }
@@ -21,10 +22,23 @@
   padding-bottom: 40px;
 }
 
+.reviews-block {
+  width: 335px;
+  height: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
 .reviews-item {
+  width: 90%;
+  flex-shrink: 0;
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.20);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
+  scroll-snap-align: center;
 }
 
 @media only screen and (max-width: 1279.98px) {
@@ -42,7 +56,6 @@
   display: flex;
   gap: 10px;
   margin-bottom: 4px;
-
 }
 
 .name-status-container {
@@ -64,6 +77,16 @@
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: -0.24px;
+}
+
+.avatar-img {
+  border-radius: 100px;
+  background: var(
+    --avatar-user-square-ethan-valdez-neutral-background,
+    url(<path-to-image>),
+    lightgray 50% / cover no-repeat,
+    #e0e0e0
+  );
 }
 
 .stars-container {
@@ -94,6 +117,10 @@
 @media only screen and (min-width: 768px) {
   .reviews-section {
     padding-bottom: 150px;
+  }
+
+  .reviews-block {
+    width: 640px;
   }
 
   .reviews-title {
@@ -130,9 +157,14 @@
 
 @media only screen and (min-width: 1280px) {
   .reviews-block {
+    width: 1080px;
     display: inline-flex;
     gap: 20px;
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .reviews-item {
+    width: 530px;
   }
 }
