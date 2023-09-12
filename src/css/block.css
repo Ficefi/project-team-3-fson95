@@ -14,7 +14,7 @@
 
 .block-item-wrap {
   white-space: nowrap;
-  animation: move_eye 15s linear 0s infinite normal;
+  animation: move_eye 10s linear 0s infinite normal;
 }
 
 .block-container:hover .block-item-wrap {
@@ -29,7 +29,7 @@
   line-height: 1.14;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  padding: 20px 15px;
+  padding: 20px 0;
   box-sizing: border-box;
   display: inline-block;
   height: 100%;
@@ -43,10 +43,10 @@
 }
 @keyframes move_eye {
   from {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   to {
-    transform: translateX(0);
+    transform: translateX(-100%);
   }
 }
 
@@ -60,7 +60,7 @@
   .block-item {
     font-size: 40px;
     line-height: 1.25;
-    padding: 24px 20px;
+    padding: 24px 0;
   }
 
   .block-item-piece-text {
