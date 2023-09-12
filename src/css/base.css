@@ -33,7 +33,7 @@
 
 @media only screen and (min-width: 320px) {
   html {
-    overflow-x: none;
+    overflow-x: hidden;
   }
 }
 
