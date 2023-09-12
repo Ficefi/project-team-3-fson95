@@ -8,9 +8,6 @@
     align-items: flex-start;
 }
 
-.form-sign-up {
-    max-width: 335px;
-}
 
 .sign-up-box-img {
     display: flex;
@@ -56,7 +53,7 @@
 }
 
 .sign-up-subtitle {
-    width: 295px;
+    width: 100%;
     color: var(--white);
     font-family: DM Sans;
     font-size: 14px;
@@ -148,7 +145,6 @@
     color: rgba(255, 255, 255, 0.50);
     line-height: 1.33;
     font-size: 12px;
-    width: 335px;
 }
 
 .form-privacy-policy {
@@ -178,7 +174,6 @@
     }
 
     .sign-up-subtitle {
-        width: 480px;
         font-size: 16px;
         line-height: 1.25;
     }
@@ -188,7 +183,7 @@
     }
 
     .form-sign-up {
-        max-width: 480px;
+        width: 480px;
     }
 
     .form-input-name {
@@ -204,7 +199,6 @@
     }
 
     .form-privacy {
-        width: 480px;
         font-size: 14px;
         line-height: 1.29;
     }
