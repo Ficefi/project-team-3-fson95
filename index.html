@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FocusFrame</title>
-  <link rel="icon" type="image/svg+xml" href="/project-team-3-fson95/assets/favicon-3d7ba273.svg" />
+  <link rel="icon" type="image/svg+xml" href="../public/favicon.svg" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,8 +15,8 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap"
     rel="stylesheet">
   
-  <script type="module" crossorigin src="/project-team-3-fson95/assets/index-0262075c.js"></script>
-  <link rel="stylesheet" href="/project-team-3-fson95/assets/index-340c31f6.css">
+  <script type="module" crossorigin src="/project-team-3-fson95/assets/index-9a398943.js"></script>
+  <link rel="stylesheet" href="/project-team-3-fson95/assets/index-80be8d05.css">
 </head>
 
 <body>
@@ -44,11 +44,7 @@
           <use href="/project-team-3-fson95/assets/icons-5625bcd1.svg#icon-camera"></use>
         </svg>
       </a>
-      <button
-        class="menu-toggle js-open-menu tablet-header"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
+      <button class="menu-toggle js-open-menu tablet-header" aria-expanded="false" aria-controls="mobile-menu">
         <svg class="icon-mob-menu" width="32" height="22">
           <use href="/project-team-3-fson95/assets/icons-5625bcd1.svg#icon-menu-btn"></use>
         </svg>
@@ -91,27 +87,14 @@
         </li>
       </ul>
       <picture class="icon-header-png">
-        <source
-          srcset="/project-team-3-fson95/assets/camera_on_cylinder@1x-b6e63ed0.png 1x, /project-team-3-fson95/assets/camera_on_cylinder@2x-e2396a8a.png 2x"
-        />
-        <img
-          class="tablet-header-png"
-          src="/project-team-3-fson95/assets/camera_on_cylinder@1x-b6e63ed0.png"
-          alt="photoaparat"
-        />
+        <source srcset="/project-team-3-fson95/assets/camera_on_cylinder@1x-b6e63ed0.png 1x, /project-team-3-fson95/assets/camera_on_cylinder@2x-e2396a8a.png 2x" />
+        <img class="tablet-header-png" src="/project-team-3-fson95/assets/camera_on_cylinder@1x-b6e63ed0.png" alt="photoaparat" />
       </picture>
     </div>
   </div>
 </div>
-<script
-  defer
-  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-  crossorigin="anonymous"
-></script>
-<script src="https://unpkg.com/headroom.js"></script>
-
-  <section class="hero">
+  <main>
+    <section class="hero">
   <div class="hero-container container">
     <h1 class="hero-title">
       Discover the magic of
@@ -190,7 +173,7 @@
   </div>
 </section>
 
-  <section class="block-section">
+    <section class="block-section">
   <div class="block-container">
     <div class="block-item-wrap">
       <h2 class="block-item">
@@ -207,7 +190,7 @@
   </div>
 </section>
 
-  <section class="about-us-section">
+    <section class="about-us-section">
     <div class="about-us-container container">
         <h2 id="about-us" class="about-us-title">
             About<span class="about-us-title-two"> Us</span>
@@ -233,8 +216,9 @@
                 </p>
             </div>
         </div>
+    </div>
 </section>
-  <section class="our-courses-section container" id="our-courses">
+    <section class="our-courses-section container" id="our-courses">
   <div class="our-courses-header-container">
     <h2 class="our-courses-header">
       Our <span class="our-courses-header-accent">Courses</span>
@@ -262,8 +246,8 @@
         </p>
       </div>
     </li>
-    <div class="our-courses-photo-container">
-      <li class="our-courses-photo-list-item">
+    <li class="our-courses-photo-container">
+      <div class="our-courses-photo-list-item">
         <p class="our-courses-number">02</p>
         <a href="#sign-up" class="svg-button-round">
           <svg class="our-courses-photo-list-svg" width="20" height="20">
@@ -275,10 +259,10 @@
           In this course, you'll learn how to choose the right angles, frame
           landscapes, and create depth and perspective in your images.
         </p>
-      </li>
-    </div>
-    <div class="our-courses-photo-container">
-      <li class="our-courses-photo-list-item">
+      </div>
+    </li>
+    <li class="our-courses-photo-container">
+      <div class="our-courses-photo-list-item">
         <p class="our-courses-number">03</p>
         <a href="#sign-up" class="svg-button-round">
           <svg class="our-courses-photo-list-svg" width="20" height="20">
@@ -292,11 +276,11 @@
           During this course, you will learn to choose the right lighting,
           reproduce the mood and expressions on the faces of the models.
         </p>
-      </li>
-    </div>
+      </div>
+    </li>
   </ol>
 </section>
-  <section class="our-mentors-section">
+    <section class="our-mentors-section">
   <div class="our-mentors-container container">
     <h2 class="our-mentors-title" id="our-mentors">
       Our <span class="our-mentors-title-two">Mentors</span>
@@ -366,8 +350,7 @@
   </div>
 </section>
 
-  <section class="sign-up" id="sign-up">
-
+    <section class="sign-up" id="sign-up">
     <div class="container">
         <div class="form">
             <div class="form-box">
@@ -380,7 +363,8 @@
                             minlength="5" required />
                     </div>
                     <div class="form-input-box">
-                        <input class="form-input-name" type="email" name="email" placeholder="Enter your email" required />
+                        <input class="form-input-name" type="email" name="email" placeholder="Enter your email"
+                            required />
                     </div>
                     <div class="form-textarea-box">
                         <textarea class="form-textarea" name="message" rows="6" placeholder="Message"></textarea>
@@ -409,7 +393,7 @@
         </div>
     </div>
 </section>
-  <!-- Reviews section -->
+    <!-- Reviews section -->
 <section class="reviews-section" id="reviews">
   <div class="reviews-container container">
     <h2 class="reviews-title">Reviews</h2>
@@ -524,6 +508,7 @@
     </div>
   </div>
 </section>
+  </main>
   <footer class="footer">
   <div class="footer-container container">
     <div class="footer-nav">
