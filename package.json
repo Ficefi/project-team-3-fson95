@@ -1,11 +1,11 @@
 {
-  "name": "survivals",
+  "name": "project-team-3-fson95",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/survivals",
+    "build": "vite build --base=/project-team-3-fson95/",
     "preview": "vite preview"
   },
   "devDependencies": {
