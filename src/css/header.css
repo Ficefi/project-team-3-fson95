@@ -1,7 +1,6 @@
 .header-container {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
 }
 .header-cont {
   display: flex;
