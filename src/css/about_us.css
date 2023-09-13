@@ -72,7 +72,6 @@
     object-fit: cover;
     width: 704px;
     height: 340px;
-    border-radius: 1000px;
     display: block;
     max-width: 100%;
   }
@@ -92,6 +91,7 @@
     width: 280px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .about-us-list {
     display: flex;
@@ -102,8 +102,16 @@
     object-fit: cover;
     width: 488px;
     height: 340px;
-    border-radius: 1000px;
     display: block;
     max-width: 100%;
+  }
+  .about-us-paragraph-container {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-us-paragraph-container {
+    padding: 64px 0;
   }
 }

@@ -7,10 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
 }
 .headroom {
-  background-color: black;
   z-index: 999;
   overflow: hidden;
   position: fixed;
@@ -32,6 +30,7 @@
   flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+  background: var(--black);
 }
 @media (min-width: 768px) {
   .nav {
@@ -136,11 +135,6 @@
 @media (max-width: 767px) {
   .cont-sign-up-header {
     display: none;
-  }
-}
-@media (min-width: 768px) {
-  .cont-sign-up-header {
-    margin-left: 14px;
   }
 }
 @media (min-width: 768px) and (max-width: 1279px) {

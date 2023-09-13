@@ -159,6 +159,7 @@
   .reviews-block {
     width: 1080px;
     display: inline-flex;
+    overflow-x: hidden;
     gap: 20px;
     padding-left: 0;
     padding-right: 0;
