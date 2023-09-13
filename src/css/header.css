@@ -15,6 +15,7 @@
   width: 100%;
   top: 0;
   transition: transform 0.3s linear;
+  padding-top: 20px;
 }
 .headroom--pinned {
   transform: translateY(0%);
